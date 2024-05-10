@@ -41,7 +41,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
 app.use(cors({
-  orgin: 'http://localhost:3000',
+  orgin: 'http://mbaza-a0w8hav55-magnifique-niragires-projects.vercel.app',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
