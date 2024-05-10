@@ -16,7 +16,7 @@ const app=express()
 const server=http.createServer(app)
 const io=require('socket.io')(server,{
     cors:{
-        orgin:'http://localhost:3000',
+        orgin:['http://mbaza-a0w8hav55-magnifique-niragires-projects.vercel.app'],
         methods:['GET','POST'],
     }
 })
